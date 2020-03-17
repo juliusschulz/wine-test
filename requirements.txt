@@ -1,0 +1,4 @@
+sklearn
+pytest
+scikit-learn==0.22.1
+pandas==0.25.1
