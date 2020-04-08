@@ -5,7 +5,7 @@ import pandas as pd
 
 def train_model(X, y):
     m = LinearRegression()
-    m.fit(df, y)
+    m.fit(X, y)
     return m
 
 
