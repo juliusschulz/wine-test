@@ -14,4 +14,4 @@ def test_wine():
 def test_data():
     """Make sure dataset is not Null"""
     X, y = load_wine(return_X_y=True)
-    assert X & y != None
+    assert X and y != None
