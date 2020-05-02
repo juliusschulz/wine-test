@@ -10,3 +10,8 @@ def test_wine():
     Xtest = np.ones((1, 13))
     ypred = m.predict(Xtest)
     assert 0 <= ypred[0] <= 3
+
+def test_data():
+    """Make sure dataset is not Null"""
+    X, y = load_wine(return_X_y=True)
+    assert X & y != None
